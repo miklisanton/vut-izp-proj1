@@ -91,7 +91,7 @@ Na chyby za běhu programu reagujte obvyklým způsobem: na neočekávaná vstup
 ### Příklady vstupů a výstupů
 
 Pomocný soubor se seznamem hesel:
-<pre> cat hesla.txt
+<pre>$ cat hesla.txt
 1234567890
 Password
 Heslo123
@@ -100,7 +100,7 @@ IZP2021:fit@vut.cz
 </pre>
 
 Příklady spuštění:
-<pre>./pwcheck 1 1 <hesla.txt
+<pre> pwcheck 1 1 <hesla.txt
 Password
 Heslo123
 Mojevelmidlouhehesloscislem0
