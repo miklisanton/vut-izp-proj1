@@ -50,7 +50,7 @@ Seznam pravidel:
 - Heslo neobsahuje sekvenci stejných znaků délky alespoň X.
 - Heslo neobsahuje dva stejné podřetězce délky alespoň X.
 
-=== Statistiky ===
+### Statistiky
 
 Pokud je zadaný argument programu <code>--stats</code>, program musí na konec výstupu vypsat celkové statistiky ve formátu:
 <pre>
@@ -87,56 +87,6 @@ Je zakázané použít následující funkce:
 ### Neočekávané chování
 
 Na chyby za běhu programu reagujte obvyklým způsobem: na neočekávaná vstupní data, formát vstupních dat nebo chyby při volání funkcí reagujte přerušením programu se stručným a výstižným chybovým hlášením na příslušný výstup a odpovídajícím návratovým kódem. Hlášení budou v kódování ASCII česky nebo anglicky.
-
-### Příklady vstupů a výstupů
-
-Pomocný soubor se seznamem hesel:
-<pre>$ cat hesla.txt
-1234567890
-Password
-Heslo123
-Mojevelmidlouhehesloscislem0
-IZP2021:fit@vut.cz
-</pre>
-
-### Příklady spuštění:
-
-<pre>
-./pwcheck 1 1 <hesla.txt
-Password
-Heslo123
-Mojevelmidlouhehesloscislem0
-IZP2021:fit@vut.cz
-</pre>
-
-<pre>
-./pwcheck 2 3 <hesla.txt
-Heslo123
-Mojevelmidlouhehesloscislem0
-IZP2021:fit@vut.cz
-</pre>
-
-<pre>
-./pwcheck 3 2 <hesla.txt
-Heslo123
-Mojevelmidlouhehesloscislem0
-IZP2021:fit@vut.cz
-</pre>
-
-<pre>
-./pwcheck 4 2 <hesla.txt
-Heslo123
-IZP2021:fit@vut.cz
-</pre>
-
-<pre>
-./pwcheck 2 4 --stats <hesla.txt
-IZP2021:fit@vut.cz
-Statistika:
-Ruznych znaku: 36
-Minimalni delka: 8
-Prumerna delka: 14.4
-</pre>
 
 ## Hodnocení
 
