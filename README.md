@@ -103,9 +103,9 @@ Na výsledné hodnocení mají hlavní vliv následující faktory:
 
 ### Priority funkcionality
 
-# Detekce jednotlivých pravidel: jelikož každá úroveň zabezpečení vyžaduje ověření všech pravidel nižší úrovně, dává smysl jednotlivá pravidla implementovat v pořadí, jak jsou zadána.
-# Vypisování statistik.
-# Další (prémiové) rozšíření funkcionality.
+- Detekce jednotlivých pravidel: jelikož každá úroveň zabezpečení vyžaduje ověření všech pravidel nižší úrovně, dává smysl jednotlivá pravidla implementovat v pořadí, jak jsou zadána.
+- Vypisování statistik.
+- Další (prémiové) rozšíření funkcionality.
 
 ### Prémiové řešení
 
