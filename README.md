@@ -99,32 +99,37 @@ Mojevelmidlouhehesloscislem0
 IZP2021:fit@vut.cz
 </pre>
 
-Příklady spuštění:
-<pre> pwcheck 1 1 <hesla.txt
+### Příklady spuštění:
+
+<pre>./pwcheck 1 1 <hesla.txt
 Password
 Heslo123
 Mojevelmidlouhehesloscislem0
 IZP2021:fit@vut.cz
 </pre>
 
-<pre>./pwcheck 2 3 <hesla.txt
+<pre>
+./pwcheck 2 3 <hesla.txt
 Heslo123
 Mojevelmidlouhehesloscislem0
 IZP2021:fit@vut.cz
 </pre>
 
-<pre>./pwcheck 3 2 <hesla.txt
+<pre>
+./pwcheck 3 2 <hesla.txt
 Heslo123
 Mojevelmidlouhehesloscislem0
 IZP2021:fit@vut.cz
 </pre>
 
-<pre>./pwcheck 4 2 <hesla.txt
+<pre>
+./pwcheck 4 2 <hesla.txt
 Heslo123
 IZP2021:fit@vut.cz
 </pre>
 
-<pre>./pwcheck 2 4 --stats <hesla.txt
+<pre>
+./pwcheck 2 4 --stats <hesla.txt
 IZP2021:fit@vut.cz
 Statistika:
 Ruznych znaku: 36
