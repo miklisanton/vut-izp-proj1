@@ -101,7 +101,8 @@ IZP2021:fit@vut.cz
 
 ### Příklady spuštění:
 
-<pre>./pwcheck 1 1 <hesla.txt
+<pre>
+./pwcheck 1 1 <hesla.txt
 Password
 Heslo123
 Mojevelmidlouhehesloscislem0
